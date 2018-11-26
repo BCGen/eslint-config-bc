@@ -1,0 +1,13 @@
+# eslint:recommended https://eslint.org/docs/rules/
+# eslint standard https://standardjs.com/rules-zhtw.html
+extends:
+  - eslint:recommended
+  - standard
+
+rules:
+  no-new: 0
+  space-before-function-paren: 0
+
+env:
+  browser: true
+  node: true

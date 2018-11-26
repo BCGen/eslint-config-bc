@@ -1,0 +1,18 @@
+# eslint-plugin-vue
+# https://github.com/benmosher/eslint-plugin-import
+
+# demo
+# https://mysticatea.github.io/vue-eslint-demo/
+extends: plugin:vue/recommended
+
+rules:
+  vue/html-indent: error
+  vue/script-indent:
+    - error
+    - 2
+    - baseIndent: 1
+
+overrides:
+  - files: "*.vue"
+    rules:
+      indent: off

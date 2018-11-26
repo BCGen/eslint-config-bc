@@ -1,0 +1,7 @@
+# eslint-plugin-import
+# https://github.com/benmosher/eslint-plugin-import
+rules:
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies: true
+  import/no-unresolved: 2

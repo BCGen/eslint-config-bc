@@ -1,5 +1,5 @@
 "use strict";
 
 module.exports = {
-  extends: "./rules/.eslintrc.json"
+  extends: ["./rules/base.yml", "./rules/import.yml", "./rules/vue.yml"]
 };
