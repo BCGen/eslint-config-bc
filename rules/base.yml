@@ -4,10 +4,14 @@ extends:
   - eslint:recommended
   - standard
 
+parser: babel-eslint
+
 rules:
   no-new: 0
   space-before-function-paren: 0
+  strict: 0
 
 env:
   browser: true
   node: true
+  es6: true
