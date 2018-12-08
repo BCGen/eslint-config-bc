@@ -10,9 +10,10 @@ rules:
   vue/script-indent:
     - error
     - 2
+    - switchCase: 1
     - baseIndent: 1
 
 overrides:
-  - files: "*.vue"
+  - files: '*.vue'
     rules:
       indent: off
