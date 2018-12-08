@@ -11,7 +11,6 @@ rules:
     - error
     - 2
     - switchCase: 1
-    - baseIndent: 1
 
 overrides:
   - files: '*.vue'
