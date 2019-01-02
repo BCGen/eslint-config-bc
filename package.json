@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-bc",
+  "name": "eslint-config-ruker",
   "version": "1.0.0",
   "description": "eslint config",
   "main": "index.js",
@@ -13,9 +13,9 @@
   "author": "BCGen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BCGen/eslint-config-bc/issues"
+    "url": "https://github.com/BCGen/eslint-config-ruker/issues"
   },
-  "homepage": "https://github.com/BCGen/eslint-config-bc#readme",
+  "homepage": "https://github.com/BCGen/eslint-config-ruker#readme",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.9.0",
